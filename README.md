@@ -35,7 +35,7 @@ Abaixo está a organização dos diretórios para o funcionamento correto da aut
 
 ├── 📄 CNAE20_Padronizado.xlsx          # Base limpa gerada pelo Python
 
-├── 📄 design_sesi.png                  # Elementos visuais e backgrounds do dashboard
+├── 📄 design.png                  # Elementos visuais e backgrounds do dashboard
 
 │
 
