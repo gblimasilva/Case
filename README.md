@@ -20,17 +20,29 @@ O resultado final é uma ferramenta focada em *data storytelling*, projetada par
 Abaixo está a organização dos diretórios para o funcionamento correto da automação e do dashboard:
 
 /Case/
+
 │
+
 ├── 📄 Case.pbit                        # Template dinâmico do Power BI (Dashboard para avaliação)
+
 ├── 📄 case_apresentacao.pptx           # Apresentação executiva dos resultados
+
 ├── 📄 padronizacao_cnae.py             # Script de limpeza da base CNAE
+
 ├── 📄 python coletar_acidentes.py      # Pipeline ETL de consumo da API do INSS
+
 ├── 📄 CNAE20_EstruturaDetalhada.xls    # Base bruta CNAE
+
 ├── 📄 CNAE20_Padronizado.xlsx          # Base limpa gerada pelo Python
+
 ├── 📄 design_sesi.png                  # Elementos visuais e backgrounds do dashboard
+
 │
+
 └── /resultados/
+
     ├── 📄 acidentes_trabalho_tratado.csv # Base de acidentes processada e consolidada
+    
     └── 📄 relatorio_qualidade.csv        # Log automático de qualidade dos dados (Nulos, Tipos)
 
 ## 🚀 Como Executar o Projeto
